@@ -54,29 +54,17 @@ var render = ({
         If you use an external storage device such as a USB stick,
         make sure to safely eject the device before continuing.</p>
 
-        <table>
-          <tbody>
-            <tr>
-              <th>Public key</th>
-              <td style={{textAlign: 'left'}}>
-                <code id="generate-pubkey" style={{ width: "30em" }}></code>
-              </td>
-              <td style={{textAlign: 'left'}}>
-                <code id="generate-pubkey-error" style={{ width: "30em" }}></code>
-              </td>
-            </tr>
-            <tr>
-              <th>Private key</th>
-              <td style={{ textAlign: "left" }}>
-                <code id="generate-privkey" style={{ width: "30em" }}></code>
-              </td>
-              <td style={{ textAlign: "left" }}>
-                <code id="generate-privkey-error" style={{ width: "30em" }}></code>
-              </td>
-            </tr>
+        <div>
+          <div>Public key</div>
+          <div className="key" id="generate-pubkey"></div>
+          <div id="generate-pubkey-error"></div>
+        </div>
 
-          </tbody>
-        </table>
+        <div>
+          <div>Private key</div>
+          <div className="key" id="generate-privkey"></div>
+          <div id="generate-privkey-error"></div>
+        </div>
 
         <p>
 
