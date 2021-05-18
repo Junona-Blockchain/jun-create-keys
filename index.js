@@ -81,8 +81,7 @@ var render = ({
         <p>
 
           There is no way to recover your private key.  You must save
-          it right now or you will be unable to access your JUN tokens
-          when the sale ends.
+          it right now or you will be unable to access your JUN tokens.
 
         </p>
       </div>
